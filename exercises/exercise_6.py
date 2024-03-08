@@ -1,7 +1,7 @@
 import math
-Ax, Ay = int(input("Enter Ax: ")),int(input("Enter Ay: "))
+Ax, Ay = int(input("Enter Ax: ")), int(input("Enter Ay: "))
 
-Bx, By = int(input("Enter Bx: ")),int(input("Enter By: "))
+Bx, By = int(input("Enter Bx: ")), int(input("Enter By: "))
 
 if math.sqrt(Ax**2 + Ay**2) > math.sqrt(Bx**2 + By**2):
     print("A is further from the origin.")
